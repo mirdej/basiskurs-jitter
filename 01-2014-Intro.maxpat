@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 11.0, 47.0, 339.0, 517.0 ],
+		"rect" : [ 11.0, 47.0, 276.0, 517.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -73,7 +73,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 252.0, 196.0, 332.0, 34.0 ],
+									"patching_rect" : [ 252.0, 196.0, 332.0, 33.0 ],
 									"text" : "Ein Klick auf eine dieser message boxes zeigt das aktuelle Bild an - als ob wir ein patchcord gezogen hätten..."
 								}
 
@@ -88,7 +88,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 252.0, 93.0, 332.0, 75.0 ],
+									"patching_rect" : [ 252.0, 93.0, 332.0, 74.0 ],
 									"text" : "Im \"Video-Quellen-für-Patches\" subpatch haben wir mit dem Attribut @out_name einen eigenen Namen für die output matrix des jit.qt.grab und des jit.qt.movie angegeben - diesen Namen können wir anderswo einsetzen um diese Matrix aufzurufen."
 								}
 
@@ -117,7 +117,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 252.0, 16.0, 291.0, 34.0 ],
+									"patching_rect" : [ 252.0, 16.0, 291.0, 33.0 ],
 									"text" : "In der Regel erfindet jedes jitterobjekt einen eigenen Namen für seine Ausgangsmatrix"
 								}
 
@@ -341,7 +341,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 170.0, 736.0, 557.0 ],
+						"rect" : [ 292.0, 85.0, 736.0, 557.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -710,7 +710,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 254.0, 386.0, 50.0, 20.0 ],
+									"patching_rect" : [ 254.0, 386.0, 50.0, 19.0 ],
 									"triscale" : 0.9
 								}
 
@@ -725,7 +725,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 106.0, 386.0, 50.0, 20.0 ],
+									"patching_rect" : [ 106.0, 386.0, 50.0, 19.0 ],
 									"triscale" : 0.9
 								}
 
@@ -740,7 +740,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 186.0, 386.0, 50.0, 20.0 ],
+									"patching_rect" : [ 186.0, 386.0, 50.0, 19.0 ],
 									"triscale" : 0.9
 								}
 
@@ -754,7 +754,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 254.0, 408.0, 76.0, 18.0 ],
+									"patching_rect" : [ 254.0, 408.0, 76.0, 17.0 ],
 									"text" : "saturation $1"
 								}
 
@@ -768,7 +768,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 106.0, 408.0, 78.0, 18.0 ],
+									"patching_rect" : [ 106.0, 408.0, 78.0, 17.0 ],
 									"text" : "brightness $1"
 								}
 
@@ -782,7 +782,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 186.0, 408.0, 66.0, 18.0 ],
+									"patching_rect" : [ 186.0, 408.0, 66.0, 17.0 ],
 									"text" : "contrast $1"
 								}
 
@@ -796,7 +796,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 35.0, 439.0, 214.0, 20.0 ],
+									"patching_rect" : [ 35.0, 439.0, 214.0, 19.0 ],
 									"text" : "jit.brcosa @brightness 2 @saturation 0."
 								}
 
@@ -1223,7 +1223,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 110.0, 44.0, 555.0, 664.0 ],
+						"rect" : [ 659.0, 51.0, 555.0, 664.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1242,6 +1242,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1429,7 +1430,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 95.0, 113.0, 186.0, 26.0 ]
+									"patching_rect" : [ 95.0, 117.0, 186.0, 26.0 ]
 								}
 
 							}
@@ -2934,7 +2935,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 371.0, 50.0, 380.0, 272.0 ],
+						"rect" : [ 782.0, 72.0, 380.0, 272.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2953,6 +2954,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Lucida Grande",
@@ -2970,7 +2972,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 364.0, 63.0, 474.0, 488.0 ],
+										"rect" : [ 303.0, 61.0, 474.0, 488.0 ],
 										"bgcolor" : [ 0.862745, 0.862745, 0.752941, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
@@ -2990,6 +2992,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
@@ -3102,6 +3105,7 @@
 														"description" : "",
 														"digest" : "",
 														"tags" : "",
+														"visible" : 1,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"fontname" : "Arial",
@@ -3112,7 +3116,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 408.0, 308.0, 126.0, 15.0 ],
-																	"text" : "jit_matrix u591003264"
+																	"text" : "jit_matrix u522000151"
 																}
 
 															}
@@ -3139,7 +3143,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 132.0, 160.0, 87.0, 15.0 ],
+																	"patching_rect" : [ 128.0, 159.0, 87.0, 15.0 ],
 																	"text" : "jit_matrix klein"
 																}
 
@@ -3380,7 +3384,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 190.0, 103.0, 70.0, 17.0 ],
+																	"patching_rect" : [ 298.0, 106.0, 70.0, 17.0 ],
 																	"text" : "jit.fill klein 0"
 																}
 
@@ -3391,12 +3395,11 @@
 																	"fontsize" : 9.0,
 																	"hidden" : 1,
 																	"id" : "obj-22",
-																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 16,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 190.0, 68.0, 63.0, 38.0 ],
+																	"patching_rect" : [ 198.0, 192.0, 305.5, 17.0 ],
 																	"text" : "pak 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 																}
 
@@ -3662,7 +3665,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "int", "bang" ],
 																	"parameter_enable" : 0,
-																	"patching_rect" : [ 120.0, 68.0, 35.0, 17.0 ],
+																	"patching_rect" : [ 333.0, 29.0, 35.0, 17.0 ],
 																	"triscale" : 0.9
 																}
 
@@ -3681,7 +3684,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "int", "bang" ],
 																	"parameter_enable" : 0,
-																	"patching_rect" : [ 86.0, 68.0, 35.0, 17.0 ],
+																	"patching_rect" : [ 315.5, 29.0, 35.0, 17.0 ],
 																	"triscale" : 0.9
 																}
 
@@ -3700,7 +3703,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "int", "bang" ],
 																	"parameter_enable" : 0,
-																	"patching_rect" : [ 52.0, 68.0, 35.0, 17.0 ],
+																	"patching_rect" : [ 203.0, 14.0, 35.0, 17.0 ],
 																	"triscale" : 0.9
 																}
 
@@ -3838,7 +3841,7 @@
 																	"destination" : [ "obj-40", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 1,
-																	"midpoints" : [ 199.5, 127.0, 62.5, 127.0 ],
+																	"midpoints" : [ 307.5, 127.0, 62.5, 127.0 ],
 																	"source" : [ "obj-21", 0 ]
 																}
 
@@ -4094,7 +4097,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 225.0, 338.0, 75.0, 17.0 ],
+													"patching_rect" : [ 198.0, 336.0, 75.0, 17.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
@@ -4129,7 +4132,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 304.0, 58.0, 704.0, 578.0 ],
+														"rect" : [ 526.0, 240.0, 638.0, 496.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -4149,6 +4152,20 @@
 														"digest" : "",
 														"tags" : "",
 														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-34",
+																	"maxclass" : "message",
+																	"numinlets" : 2,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 141.5, 122.0, 107.0, 18.0 ],
+																	"text" : "setcell 2 2 val 150"
+																}
+
+															}
+, 															{
 																"box" : 																{
 																	"id" : "obj-1",
 																	"maxclass" : "jit.pwindow",
@@ -4238,7 +4255,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 43.0, 191.0, 116.0, 15.0 ],
-																	"text" : "jit_matrix u599001705"
+																	"text" : "jit_matrix u757000188"
 																}
 
 															}
@@ -4266,7 +4283,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 164.0, 190.0, 116.0, 15.0 ],
-																	"text" : "cell 0 0 val 178"
+																	"text" : "cell 2 3 val 200"
 																}
 
 															}
@@ -4796,6 +4813,15 @@
 															}
 , 															{
 																"patchline" : 																{
+																	"destination" : [ "obj-31", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-34", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
 																	"destination" : [ "obj-3", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
@@ -4853,7 +4879,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 139.0, 164.0, 193.0, 38.0 ],
+													"patching_rect" : [ 139.0, 164.0, 193.0, 37.0 ],
 													"text" : "alle jit.matrix objekte mit gleichem namen teilen sich denselben speicher und haben diesselben daten"
 												}
 
@@ -4984,7 +5010,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 25.0, 35.0, 292.0, 23.0 ],
+													"patching_rect" : [ 25.0, 35.0, 292.0, 22.0 ],
 													"text" : "jit.matrix - das Herzstück von Jitter"
 												}
 
@@ -5034,7 +5060,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 31.0, 204.0, 136.0, 21.0 ],
+									"patching_rect" : [ 31.0, 204.0, 121.0, 21.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -5048,7 +5074,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p die Jitter Matrix"
+									"text" : "p \"die Jitter Matrix\""
 								}
 
 							}
@@ -8643,7 +8669,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 23.0, 340.5, 87.0, 21.0 ],
+					"patching_rect" : [ 23.0, 340.0, 94.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -8657,7 +8683,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p The Matrix"
+					"text" : "p \"The Matrix\""
 				}
 
 			}
@@ -8692,7 +8718,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 386.0, 50.0, 615.0, 665.0 ],
+						"rect" : [ 35.0, 47.0, 615.0, 665.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -8862,7 +8888,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 358.0, 271.0, 78.0, 20.0 ],
+									"patching_rect" : [ 358.0, 275.5, 78.0, 20.0 ],
 									"text" : "s movieinput"
 								}
 
@@ -8943,7 +8969,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 51.0, 268.0, 86.0, 20.0 ],
+									"patching_rect" : [ 51.0, 271.0, 86.0, 20.0 ],
 									"text" : "s camerainput"
 								}
 
@@ -9414,7 +9440,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 56.0, 44.0, 813.0, 640.0 ],
+						"rect" : [ 169.0, 44.0, 813.0, 640.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9434,7 +9460,6 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "Quellen für Infos",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Lucida Grande",
@@ -9778,8 +9803,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 60.0, 39.0, 115.0, 21.0 ],
-									"text" : "New Object List"
+									"patching_rect" : [ 60.0, 39.0, 126.0, 21.0 ],
+									"text" : "Sidebar->Explorer"
 								}
 
 							}
@@ -9941,7 +9966,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 2.0, 50.0, 1020.0, 567.0 ],
+						"rect" : [ 4.0, 50.0, 1020.0, 567.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -14938,7 +14963,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 117.0, 197.0, 831.0, 457.0 ],
+						"rect" : [ 118.0, 174.0, 831.0, 457.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -14975,7 +15000,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 29.0, 69.0, 811.0, 580.0 ],
+										"rect" : [ 143.0, 93.0, 811.0, 580.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -15004,7 +15029,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 587.0, 44.0, 199.0, 62.0 ],
+													"patching_rect" : [ 587.0, 44.0, 199.0, 60.0 ],
 													"text" : "wahrscheinlich ist die blau markierte version die aktuell beste, es sei denn ich hab vergessen version 5 zu markieren ?"
 												}
 
@@ -15019,7 +15044,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 31.0, 251.0, 607.0, 48.0 ],
+													"patching_rect" : [ 31.0, 251.0, 607.0, 47.0 ],
 													"text" : "Git speichert bei jedem \"commit\" eine Art Photo vom aktuellen Stand des Projektes.\n- Ich kann jederzeit wieder eine ältere Version aufrufen.\n- Da ich bei jedem \"commit\" eine log message geben muss, weiss ich mehr oder werniger was wo passiert ist"
 												}
 
@@ -15164,7 +15189,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 468.0, 116.5, 325.0, 36.0 ],
+									"patching_rect" : [ 468.0, 116.5, 325.0, 35.0 ],
 									"text" : ";\rmax launchbrowserhttp://git-scm.com/book/en/Getting-Started-First-Time-Git-Setup"
 								}
 
@@ -15291,7 +15316,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 293.0, 208.0, 429.0, 22.0 ],
+									"patching_rect" : [ 293.0, 208.0, 431.0, 22.0 ],
 									"text" : "git clone https://github.com/mirdej/basiskurs-jitter-2013.git\n"
 								}
 
