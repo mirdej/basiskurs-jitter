@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 37.0, 54.0, 726.0, 699.0 ],
+		"rect" : [ 42.0, 77.0, 1021.0, 431.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,12 +31,87 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 411.5, 359.0, 174.0, 20.0 ],
+					"presentation_rect" : [ 418.0, 369.0, 0.0, 0.0 ],
+					"text" : "@noaccel 1 sonst gehts nicht !",
+					"textcolor" : [ 1.0, 0.0, 0.010851, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-19",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 64.0, 171.0, 187.0, 20.0 ],
+					"presentation_rect" : [ 48.0, 165.0, 0.0, 0.0 ],
+					"text" : "enable direct to window playback",
+					"textcolor" : [ 1.0, 0.0, 0.010851, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 251.0, 273.0, 150.0, 20.0 ],
+					"text" : "kein patch cord",
+					"textcolor" : [ 1.0, 0.0, 0.010851, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 711.0, 273.0, 67.0, 20.0 ],
+					"text" : "AUSWEG:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 711.0, 293.0, 173.0, 20.0 ],
+					"text" : "http://www.openframeworks.cc"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 443.0, 188.0, 34.0, 18.0 ],
+					"patching_rect" : [ 529.0, 192.0, 34.0, 18.0 ],
 					"text" : "start"
 				}
 
@@ -50,7 +125,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 320.0, 69.5, 150.0, 20.0 ],
+					"patching_rect" : [ 406.0, 73.5, 150.0, 20.0 ],
 					"text" : "Drop video file here"
 				}
 
@@ -64,7 +139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 396.0, 188.0, 33.0, 18.0 ],
+					"patching_rect" : [ 482.0, 192.0, 33.0, 18.0 ],
 					"text" : "stop"
 				}
 
@@ -77,7 +152,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 165.0, 150.0, 17.0, 17.0 ]
+					"patching_rect" : [ 251.0, 117.0, 17.0, 17.0 ]
 				}
 
 			}
@@ -90,8 +165,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 165.0, 188.0, 78.0, 20.0 ],
-					"text" : "qmetro 1000"
+					"patching_rect" : [ 251.0, 155.0, 71.0, 20.0 ],
+					"text" : "qmetro 300"
 				}
 
 			}
@@ -104,7 +179,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.0, 328.0, 72.0, 18.0 ],
+					"patching_rect" : [ 154.0, 285.0, 72.0, 18.0 ],
 					"text" : "fullscreen 1"
 				}
 
@@ -118,7 +193,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 188.0, 51.0, 18.0 ],
+					"patching_rect" : [ 598.0, 192.0, 51.0, 18.0 ],
 					"text" : "window"
 				}
 
@@ -130,7 +205,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 358.0, 188.0, 20.0, 20.0 ]
+					"patching_rect" : [ 444.0, 192.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -143,7 +218,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 188.0, 96.0, 18.0 ],
+					"patching_rect" : [ 142.0, 192.0, 96.0, 18.0 ],
 					"text" : "window hdvideo"
 				}
 
@@ -157,7 +232,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.0, 146.0, 82.0, 20.0 ],
+					"patching_rect" : [ 348.0, 150.0, 82.0, 20.0 ],
 					"text" : "prepend read"
 				}
 
@@ -171,7 +246,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 301.0, 113.0, 294.0, 18.0 ],
+					"patching_rect" : [ 387.0, 117.0, 294.0, 18.0 ],
 					"text" : "Rudy:/Users/me/Desktop/Jittertest.mov"
 				}
 
@@ -183,7 +258,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 262.0, 65.0, 266.0, 29.0 ]
+					"patching_rect" : [ 348.0, 69.0, 266.0, 29.0 ]
 				}
 
 			}
@@ -196,7 +271,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 358.0, 146.0, 49.0, 25.0 ],
+					"patching_rect" : [ 444.0, 150.0, 49.0, 25.0 ],
 					"text" : "read"
 				}
 
@@ -210,7 +285,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 165.0, 229.0, 97.0, 27.0 ],
+					"patching_rect" : [ 251.0, 233.0, 97.0, 27.0 ],
 					"text" : "jit.qt.movie"
 				}
 
@@ -224,7 +299,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 165.0, 365.0, 259.0, 27.0 ],
+					"patching_rect" : [ 251.0, 323.0, 259.0, 27.0 ],
 					"text" : "jit.window hdvideo @noaccel 1"
 				}
 
@@ -253,6 +328,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 491.5, 221.0, 260.5, 221.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -262,6 +338,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 453.5, 221.0, 260.5, 221.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -271,6 +348,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 538.5, 221.0, 260.5, 221.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -280,6 +358,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 607.5, 221.0, 260.5, 221.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 

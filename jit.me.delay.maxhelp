@@ -75,7 +75,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 240.0, 299.0, 126.0, 20.0 ],
-					"presentation_rect" : [ 240.0, 269.0, 0.0, 0.0 ],
 					"text" : "delay time (in frames)"
 				}
 
@@ -105,7 +104,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 26.0, 64.0, 179.0, 22.0 ],
-					"presentation_rect" : [ 29.0, 64.0, 0.0, 0.0 ],
 					"text" : "simple variable video delay"
 				}
 
